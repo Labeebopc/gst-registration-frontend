@@ -28,7 +28,7 @@ const Registration = () => {
         else {
 
             const postData = async () => {
-                let result = await axios.post("http://localhost:5000/api/v1/register", {
+                let result = await axios.post("https://gst-registration-backend.onrender.com/api/v1/register", {
                     data: formData
                 })
             }
